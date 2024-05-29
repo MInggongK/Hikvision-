@@ -1,5 +1,4 @@
-# Hikvision-
-Hikvision综合漏洞利用工具v1.3版 
+# Hikvision-Hikvision综合漏洞利用工具
 
 攻防的时候偶遇海康威视系统，想着整合一下海康威视漏洞，顺便写个工具
 ,能力有限，请多包涵！
