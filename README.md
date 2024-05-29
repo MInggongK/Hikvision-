@@ -1,6 +1,6 @@
 # Hikvision综合漏洞利用工具
 
-没事写个工具
+没事写个工具，
 程序采用C#开发,
 首次使用请安装依赖：
 NET8.0
@@ -36,7 +36,9 @@ Hikvision 远程代码执行漏洞，Hikvision iVMS综合安防系统任意文�
 
 webshell利用模块，收录漏洞如下：
 Hikvision iVMS综合安防系统任意文件上传漏洞
+
 Hikvision综合安防管理平台isecure center文件上传漏洞
+
 Hikvision综合安防管理平台report任意文件上传漏洞
 
 待开发
