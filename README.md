@@ -6,26 +6,40 @@
 海康威视综合漏洞利用工具v1.3版    收录漏洞如下：
 
 Hikvision 摄像头未授权访问漏洞
+
 Hikvision 远程代码执行漏洞
+
 Hikvision iVMS综合安防系统任意文件上传漏洞
+
 Hikvision综合安防管理平台isecure center文件上传漏洞
+
 Hikvision综合安防管理平台config信息泄露漏洞
+
 Hikvision综合安防管理平台env信息泄漏漏洞
+
 Hikvision综合安防管理平台report任意文件上传漏洞
+
 Hikvision综合安防管理平台api session命令执行漏洞
 
 批量检测模块：收录漏洞如下
 
 Hikvision 远程代码执行漏洞
+
 Hikvision iVMS综合安防系统任意文件上传漏洞
+
 Hikvision综合安防管理平台isecure center文件上传漏洞
+
 Hikvision综合安防管理平台config信息泄露漏洞
+
 Hikvision综合安防管理平台api session命令执行漏洞
+
 Hikvision综合安防管理平台env信息泄漏漏洞
 
 webshell利用模块，收录漏洞如下：
 Hikvision iVMS综合安防系统任意文件上传漏洞
+
 Hikvision综合安防管理平台isecure center文件上传漏洞
+
 Hikvision综合安防管理平台report任意文件上传漏洞
 
 待开发
