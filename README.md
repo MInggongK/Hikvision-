@@ -43,14 +43,16 @@ Hikvision综合安防管理平台api session命令执行漏洞
 
 Hikvision综合安防管理平台env信息泄漏漏洞
 
-webshell利用模块，收录漏洞如下：
+webshell利用模块，
+收录漏洞如下：
 Hikvision iVMS综合安防系统任意文件上传漏洞
 
 Hikvision综合安防管理平台isecure center文件上传漏洞
 
 Hikvision综合安防管理平台report任意文件上传漏洞
 
-命令执行模块，收录漏洞如下：
+命令执行模块，
+收录漏洞如下：
 Hikvision 远程代码执行漏洞
 Hikvision综合安防管理平台api session命令执行漏洞
 
