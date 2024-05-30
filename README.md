@@ -31,8 +31,12 @@ Hikvision综合安防管理平台api session命令执行漏洞
 默认模块一键扫描所有漏洞
 选择模块可单独选择模块进行漏洞扫描
 
-批量检测模块：收录漏洞如下
-Hikvision 远程代码执行漏洞，Hikvision iVMS综合安防系统任意文件上传漏洞
+批量检测模块：
+
+收录漏洞如下
+Hikvision 远程代码执行漏洞
+
+Hikvision iVMS综合安防系统任意文件上传漏洞
 
 Hikvision综合安防管理平台isecure center文件上传漏洞
 
@@ -42,7 +46,9 @@ Hikvision综合安防管理平台api session命令执行漏洞
 
 Hikvision综合安防管理平台env信息泄漏漏洞
 
-webshell利用模块，收录漏洞如下：
+webshell利用模块
+
+收录漏洞如下：
 Hikvision iVMS综合安防系统任意文件上传漏洞
 
 Hikvision综合安防管理平台isecure center文件上传漏洞
