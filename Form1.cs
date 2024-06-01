@@ -811,7 +811,7 @@ namespace hikvision漏洞利用工具
                 HttpStatusCode statusCode = response.StatusCode;
 
                 String s = streamreader.ReadToEnd();
-                if (s.Contains("token emtry!"))
+                if (s.Contains("errorMessage"))
                 {
 
                     richTextBox3.AppendText("\n" + now + "目标" + textBox1.Text + "[+]存在Hikvision iVMS综合安防系统任意文件上传漏洞");
@@ -880,7 +880,7 @@ namespace hikvision漏洞利用工具
                 HttpStatusCode statusCode = response.StatusCode;
 
                 String s = streamreader.ReadToEnd();
-                if (s.Contains("token emtry!"))
+                if (s.Contains("errorMessage"))
                 {
 
                     richTextBox1.AppendText("\n" + now + "目标" + textBox1.Text + "[+]存在Hikvision iVMS综合安防系统任意文件上传漏洞");
@@ -1605,7 +1605,7 @@ namespace hikvision漏洞利用工具
                         HttpStatusCode statusCode = response.StatusCode;
 
                         String s = streamreader.ReadToEnd();
-                        if (s.Contains("token emtry!"))
+                        if (s.Contains("errorMessage"))
                         {
 
                             richTextBox2.AppendText("\n" + now + urla + "[+]存在Hikvision iVMS综合安防系统任意文件上传漏洞");
