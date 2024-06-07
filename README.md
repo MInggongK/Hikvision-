@@ -29,6 +29,8 @@ Hikvision综合安防管理平台api session命令执行漏洞
 
 Hikvision applyCT命令执行漏洞
 
+Hikvision applyAutoLoginTicket命令执行漏洞
+
 # 功能介绍
 默认模块一键扫描所有漏洞
 选择模块可单独选择模块进行漏洞扫描
