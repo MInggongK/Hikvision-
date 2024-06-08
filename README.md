@@ -48,6 +48,10 @@ http://ceye.io/
 ![image](https://github.com/MInggongK/Hikvision-/blob/main/202406080843898.png)
 
 webshell利用模块
+内置哥斯拉，冰蝎，蚁剑，JSPcmdshell，测试文件可直接上传（请勿改动文件名）
+自定义上传，可选择模块进行上传，输入你要上传的shell代码，保存文件名，点击上传即可
+
+![image](https://github.com/MInggongK/Hikvision-/blob/main/202406080848515.png)
 
 命令执行模块
 
