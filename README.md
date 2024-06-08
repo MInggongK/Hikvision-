@@ -39,7 +39,7 @@ Hikvision applyAutoLoginTicket命令执行漏洞
 
 选择模块可单独选择模块进行漏洞扫描
 
-![image](https://github.com/MInggongK/Hikvision-/blob/main/202406080819451.png)
+![image](https://github.com/MInggongK/Hikvision-/blob/main/202406080828136.png)
 
 批量检测模块：
 
