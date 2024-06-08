@@ -52,6 +52,8 @@ webshell利用模块
 
 自定义上传，可选择模块进行上传，输入你要上传的shell代码，保存文件名，点击上传即可
 
+![image](https://github.com/MInggongK/Hikvision-/blob/main/202406080848515.png)
+
 cmshell命令执行模块
 
 ![image](https://github.com/MInggongK/Hikvision-/blob/main/202406080907735.png)
