@@ -33,8 +33,8 @@ Hikvision applyAutoLoginTicket命令执行漏洞
 
 # 功能介绍
 默认模块一键扫描所有漏洞，输入目标地址,选择默认模块，可以一键所有漏洞
-Hikvision applyCT模块检测，需要配置ceye token，选择模块可单独选择模块进行漏洞扫描
-http://ceye.io/
+Hikvision applyCT模块检测，需要配置ceye token，http://ceye.io/，选择模块可单独选择模块进行漏洞扫描
+
 
 ![image](https://github.com/MInggongK/Hikvision-/blob/main/202406080819451.png)
 
@@ -51,10 +51,11 @@ webshell利用模块
 ![image](https://github.com/MInggongK/Hikvision-/blob/main/202406080848515.png)
 
 cmshell命令执行模块
+验证漏洞是否存在，执行cmdshell命令
 
 ![image](https://github.com/MInggongK/Hikvision-/blob/main/202406080907735.png)
 
-验证漏洞是否存在，执行cmdshell命令
+
 
 ![image](https://github.com/MInggongK/Hikvision-/blob/main/202406080909107.png)
 
