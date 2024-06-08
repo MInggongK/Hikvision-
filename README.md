@@ -35,14 +35,19 @@ Hikvision applyAutoLoginTicket命令执行漏洞
 默认模块一键扫描所有漏洞，输入目标地址,选择默认模块，可以一键所有漏洞
 Hikvision applyCT模块检测，需要配置ceye token，http://ceye.io/，选择模块可单独选择模块进行漏洞扫描
 
-
 ![image](https://github.com/MInggongK/Hikvision-/blob/main/202406080819451.png)
 
 批量检测模块：
+模块如下：Hikvision 远程代码执行漏洞，Hikvision iVMS综合安防系统任意文件上传漏洞，Hikvision综合安防管理平台isecure center文件上传漏洞，
+Hikvision综合安防管理平台config信息泄露漏洞，Hikvision综合安防管理平台api session命令执行漏洞，Hikvision综合安防管理平台env信息泄漏漏洞，
+Hikvision applyAutoLoginTicket命令执行漏洞
 
 ![image](https://github.com/MInggongK/Hikvision-/blob/main/202406080859002.png)
 
 webshell利用模块
+Hikvision iVMS综合安防系统任意文件上传漏洞
+Hikvision综合安防管理平台isecure center文件上传漏洞
+Hikvision综合安防管理平台report任意文件上传漏洞
 
 内置哥斯拉，冰蝎，蚁剑，JSPcmdshell，测试文件可直接上传（请勿改动文件名）
 
@@ -51,6 +56,9 @@ webshell利用模块
 ![image](https://github.com/MInggongK/Hikvision-/blob/main/202406080848515.png)
 
 cmshell命令执行模块
+Hikvision 远程代码执行漏洞
+Hikvision综合安防管理平台api session命令执行漏洞
+Hikvision applyAutoLoginTicket命令执行漏洞
 验证漏洞是否存在，执行cmdshell命令
 
 ![image](https://github.com/MInggongK/Hikvision-/blob/main/202406080907735.png)
