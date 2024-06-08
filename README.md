@@ -60,7 +60,7 @@ Hikvision综合安防管理平台env信息泄漏漏洞
 
 Hikvision applyAutoLoginTicket命令执行漏洞
 
-![image]([))
+![image](https://github.com/MInggongK/Hikvision-/blob/main/202406080859002.png)
 
 webshell利用模块
 
@@ -76,7 +76,7 @@ Hikvision综合安防管理平台report任意文件上传漏洞
 
 自定义上传，可选择模块进行上传，输入你要上传的shell代码，保存文件名，点击上传即可
 
-![image](https://github.com/MInggongK/Hikvision-/blob/main/202406080859002.png)
+
 
 cmshell命令执行模块
 
