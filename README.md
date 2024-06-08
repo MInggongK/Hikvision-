@@ -43,6 +43,8 @@ Hikvision applyAutoLoginTicket命令执行漏洞
 
 批量检测模块：
 
+![image](https://github.com/MInggongK/Hikvision-/blob/main/202406080843898.png)
+
 webshell利用模块
 
 命令执行模块
