@@ -74,6 +74,7 @@ Hikvision综合安防管理平台api session命令执行漏洞
 Hikvision applyAutoLoginTicket命令执行漏洞
 验证漏洞是否存在，执行cmdshell命令
 
+![image](https://github.com/MInggongK/Hikvision-/blob/main/202406080907735.png)
 
 
 
