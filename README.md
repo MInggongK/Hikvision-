@@ -53,6 +53,8 @@ Hikvision综合安防管理平台env信息泄漏漏洞
 
 Hikvision applyAutoLoginTicket命令执行漏洞
 
+![image](https://github.com/MInggongK/Hikvision-/blob/main/202406080859002.png)
+
 webshell利用模块
 Hikvision iVMS综合安防系统任意文件上传漏洞
 
