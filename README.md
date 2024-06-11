@@ -41,6 +41,7 @@ Hikvision applyCT模块检测，需要配置ceye token，http://ceye.io/，考�
 ![image](https://github.com/MInggongK/Hikvision-/blob/main/202406080819451.png)
 
 批量检测模块：
+
 模块如下：Hikvision 远程代码执行漏洞
 
 Hikvision iVMS综合安防系统任意文件上传漏洞
