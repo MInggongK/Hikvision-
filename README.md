@@ -38,8 +38,6 @@ Hikvision keepAlive远程代码执行漏洞
 Hikvision applyCT模块检测，需要配置ceye token，http://ceye.io/，考虑到批量识别可能会阻塞网络，没有采取这种方式，提供Hikvision applyCT模块漏洞识别
 ,选择模块可单独选择模块进行漏洞扫描
 
-![image](https://github.com/MInggongK/Hikvision-/blob/main/202406080819451.png)
-
 批量检测模块：
 
 模块如下：Hikvision 远程代码执行漏洞
