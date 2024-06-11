@@ -62,7 +62,7 @@ Hikvision综合安防管理平台isecure center文件上传漏洞
 
 Hikvision综合安防管理平台report任意文件上传漏洞
 
-内置Godzilla，Behinder，AntSword，JSPcmdshell，测试文件可直接上传（请勿改动文件名）
+内置Godzilla，Behinder，AntSword，JSPcmdshell，测试文件可直接上传
 
 自定义上传，可选择模块进行上传，输入你要上传的shell代码，保存文件名，点击上传即可
 
