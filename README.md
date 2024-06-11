@@ -35,7 +35,6 @@ Hikvision keepAlive远程代码执行漏洞
 
 # 功能介绍
 输入目标地址，默认模块一键扫描所有漏洞
-Hikvision applyCT模块检测，需要配置ceye token，http://ceye.io/，考虑到批量识别可能会阻塞网络，没有采取这种方式，提供Hikvision applyCT模块漏洞识别
 ,选择模块可单独选择模块进行漏洞扫描
 
 批量检测模块：
