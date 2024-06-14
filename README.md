@@ -87,6 +87,8 @@ Cmdshell模块：
 
 ![image](https://github.com/MInggongK/Hikvision-/blob/main/b8599b9343f82e3bc30984ca4f3fea3.jpg)
 
+![image](https://github.com/MInggongK/Hikvision-/blob/main/53410904844cdca74861cb82d9644836.jpg)
+
 webshell利用模块：
 
 ![image](https://github.com/MInggongK/Hikvision-/blob/main/e369853df766fa44e1ed0ff613f563bd.png)
