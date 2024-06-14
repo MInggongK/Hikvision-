@@ -67,6 +67,40 @@ Hikvision applyAutoLoginTicket命令执行漏洞
 
 # 功能使用
 
+默认模块可一键扫描所有漏洞
+选择模块可单独选择你要检测的模块，输入目标，点击选择模块即可检测漏洞
+
+批量检测内置路径：/hikvision.txt
+hikvision.txt文本放入你要检测的网站列表
+默认批量检测，批量扫描所有模块的漏洞
+选择模块，可单独选择你要检测的模块，点击选择模块即可
+
+Cmdshell模块：
+选择模块进行漏洞验证，如果存在，在cmdshell输入你要执行的命令即可
+
+webshell利用模块：
+内置Godzilla
+Behinder
+AntSword
+cmd
+四种类型的shell
+一个测试文件
+
+具体使用方法：选择模块进行验证
+如isecure center
+如果漏洞存在
+可选择内置类型，如测试文件
+点击getshell isecure上传即可
+
+自定义上传
+如果存在isecure漏洞
+可自定义shell代码，
+选择自定义模块
+如自定义isecure
+填入你要的shell代码，文件名，如demo.jsp
+点击自定义上传即可
+
+
 
 
 
