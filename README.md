@@ -34,8 +34,6 @@ Hikvision applyAutoLoginTicket命令执行漏洞
 Hikvision keepAlive远程代码执行漏洞
 
 # 功能介绍
-输入目标地址，默认模块一键扫描所有漏洞
-,选择模块可单独选择模块进行漏洞扫描
 
 批量检测模块：
 
@@ -60,17 +58,12 @@ Hikvision综合安防管理平台isecure center文件上传漏洞
 
 Hikvision综合安防管理平台report任意文件上传漏洞
 
-内置Godzilla，Behinder，AntSword，JSPcmdshell，测试文件可直接上传
-
-自定义上传，可选择模块进行上传，输入你要上传的shell代码，输入文件名，点击上传即可
-
 cmshell命令执行模块
 Hikvision 远程代码执行漏洞
 
 Hikvision综合安防管理平台api session命令执行漏洞
 
 Hikvision applyAutoLoginTicket命令执行漏洞
-验证漏洞是否存在，执行cmdshell命令
 
 # 功能使用
 
