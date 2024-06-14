@@ -73,25 +73,16 @@ Hikvision applyAutoLoginTicket命令执行漏洞
 
 选择模块可单独选择你要检测的模块，输入目标，点击选择模块即可检测漏洞
 
-![image](https://github.com/MInggongK/Hikvision-/blob/main/202cb962ac59075b964b07152d234b70.jpg)
-
 批量检测内置路径：/hikvision.txt
 hikvision.txt文本放入你要检测的网站列表
 默认批量检测，批量扫描所有模块的漏洞
-![image](https://github.com/MInggongK/Hikvision-/blob/main/c4ca4238a0b923820dcc509a6f75849b.jpg)
 
 选择模块，可单独选择你要检测的模块，点击选择模块即可
 
 Cmdshell模块：
 选择模块进行漏洞验证，如果存在，在cmdshell输入你要执行的命令即可
 
-![image](https://github.com/MInggongK/Hikvision-/blob/main/b8599b9343f82e3bc30984ca4f3fea3.jpg)
-
-![image](https://github.com/MInggongK/Hikvision-/blob/main/519c0091a69edc3eca962546716c969d.jpg)
-
 webshell利用模块：
-
-![image](https://github.com/MInggongK/Hikvision-/blob/main/e369853df766fa44e1ed0ff613f563bd.png)
 
 内置Godzilla
 Behinder
