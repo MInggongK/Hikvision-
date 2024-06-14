@@ -85,6 +85,8 @@ hikvision.txt文本放入你要检测的网站列表
 Cmdshell模块：
 选择模块进行漏洞验证，如果存在，在cmdshell输入你要执行的命令即可
 
+![image](https://github.com/MInggongK/Hikvision-/blob/main/b8599b9343f82e3bc30984ca4f3fea3.jpg)
+
 webshell利用模块：
 内置Godzilla
 Behinder
