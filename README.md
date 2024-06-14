@@ -68,6 +68,9 @@ Hikvision applyAutoLoginTicket命令执行漏洞
 # 功能使用
 
 默认模块可一键扫描所有漏洞
+
+![image](https://github.com/MInggongK/Hikvision-/blob/main/e10adc3949ba59abbe56e057f20f883e.jpg)
+
 选择模块可单独选择你要检测的模块，输入目标，点击选择模块即可检测漏洞
 
 批量检测内置路径：/hikvision.txt
