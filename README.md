@@ -91,6 +91,8 @@ Cmdshell模块：
 
 webshell利用模块：
 
+![image](https://github.com/MInggongK/Hikvision-/blob/main/e369853df766fa44e1ed0ff613f563bd.png)
+
 内置Godzilla
 Behinder
 AntSword
@@ -103,6 +105,8 @@ cmd
 如果漏洞存在
 可选择内置类型，如测试文件
 点击getshell isecure上传即可
+
+
 
 自定义上传
 如果存在isecure漏洞
