@@ -145,6 +145,21 @@ http://api.ceye.io/v1/records?token=“token&type=dns&filter=
 如果找到，就存在漏洞，否则漏洞不存在
 但是这个只适用于单个识别，批量识别还需要写另外验证方法
 
+# 更新日志
+
+Hikvision综合漏洞利用工具 v1.7版
+增加了批量指纹识别功能
+默认识别Server识别
+set-Cookie识别
+放入你要检测的批量网站，点击识别即可
+![image](https://github.com/MInggongK/Hikvision-/blob/main/gjdfgdg.jpg)
+
+增加了Hikvision综合安防管理平台orgManage任意文件读取漏洞检测（含批量检测）
+增加了Hikvision综合安防管理平台files任意文件读取漏洞检测（含批量检测）
+感谢ling1uan提到的issues问题，修复了report漏洞构造请求体的Bug
+
+
+
 
 
 
