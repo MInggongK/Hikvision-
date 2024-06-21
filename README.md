@@ -33,6 +33,10 @@ Hikvision applyAutoLoginTicket命令执行漏洞
 
 Hikvision keepAlive远程代码执行漏洞
 
+Hikvision综合安防管理平台orgManage任意文件读取漏洞
+
+Hikvision综合安防管理平台files任意文件读取漏洞
+
 # 功能介绍
 
 批量检测模块：
