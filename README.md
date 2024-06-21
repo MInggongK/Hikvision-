@@ -55,6 +55,10 @@ Hikvision综合安防管理平台env信息泄漏漏洞
 
 Hikvision applyAutoLoginTicket命令执行漏洞
 
+Hikvision综合安防管理平台orgManage任意文件读取漏洞
+
+Hikvision综合安防管理平台files任意文件读取漏洞
+
 webshell利用模块
 Hikvision iVMS综合安防系统任意文件上传漏洞
 
