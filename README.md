@@ -148,9 +148,13 @@ http://api.ceye.io/v1/records?token=“token&type=dns&filter=
 # 更新日志
 
 Hikvision综合漏洞利用工具 v1.7版
+
 增加了批量指纹识别功能
+
 默认识别Server识别
+
 set-Cookie识别
+
 放入你要检测的批量网站，点击识别即可
 增加了Hikvision综合安防管理平台orgManage任意文件读取漏洞检测（含批量检测）
 增加了Hikvision综合安防管理平台files任意文件读取漏洞检测（含批量检测）
