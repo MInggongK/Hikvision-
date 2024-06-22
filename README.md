@@ -155,9 +155,7 @@ Hikvision综合漏洞利用工具 v1.7版
 
 增加了批量指纹识别功能
 
-默认识别Server识别
-
-set-Cookie识别
+![image](https://github.com/MInggongK/Hikvision-/blob/main/gjdfgdg.jpg)
 
 放入你要检测的批量网站，点击识别即可
 
