@@ -164,7 +164,7 @@ set-cookie识别
 
 增加了Hikvision综合安防管理平台files模块检测
 
-感谢ling1uan提到的report问题，已修复
+感谢ling1uan提到的report请求构造体问题的bug，已修复
 
 
 
