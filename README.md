@@ -153,8 +153,6 @@ http://api.ceye.io/v1/records?token=“token&type=dns&filter=
 
 Hikvision综合漏洞利用工具 v1.7版
 
-增加了批量指纹识别功能
-
 增加了Hikvision综合安防管理平台orgManage模块检测
 
 增加了Hikvision综合安防管理平台files模块检测
