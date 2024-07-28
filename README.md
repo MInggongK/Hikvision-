@@ -157,7 +157,9 @@ http://api.ceye.io/v1/records?token=“token&type=dns&filter=
 Hikvision综合漏洞利用工具 v1.8版
 
 增加了Hikvision综合安防管理平台detection远程命令执行漏洞
+
 增加了自定义detection利用模块
+
 优化了Hikvision applyAutoLoginTicket命令执行漏洞
 
 Hikvision综合漏洞利用工具 v1.7版
