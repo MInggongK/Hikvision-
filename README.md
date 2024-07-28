@@ -37,6 +37,8 @@ Hikvision综合安防管理平台orgManage任意文件读取漏洞
 
 Hikvision综合安防管理平台files任意文件读取漏洞
 
+Hikvision综合安防管理平台detection远程命令执行漏洞
+
 # 功能介绍
 
 批量检测模块：
@@ -150,6 +152,12 @@ http://api.ceye.io/v1/records?token=“token&type=dns&filter=
 但是这个只适用于单个识别，批量识别还需要写另外验证方法
 
 # 更新日志
+
+Hikvision综合漏洞利用工具 v1.8版
+
+增加了Hikvision综合安防管理平台detection远程命令执行漏洞
+增加了自定义detection利用模块
+优化了Hikvision applyAutoLoginTicket命令执行漏洞
 
 Hikvision综合漏洞利用工具 v1.7版
 
