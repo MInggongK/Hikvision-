@@ -254,7 +254,7 @@ Content-Type: application/zip
    filepath1 = textBox5.Text; 传给一个控件
   request.Headers.Add("Token", token);加载读到的token
   
-  ![image](https://github.com/MInggongK/Hikvision-/blob/main/dgf.png)
+![image](https://github.com/MInggongK/Hikvision-/blob/main/dgf.jpg)
   
   验证的话， 还是采用http://api.ceye.io/v1/records?token=去验证
    http://api.ceye.io/v1/records?token=+"token信息";
