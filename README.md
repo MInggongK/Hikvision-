@@ -267,7 +267,7 @@ Content-Type: application/zip
   
    http://api.ceye.io/v1/records?token=+"token信息";
    
-   采用了自定义内置dnslog
+   采用了自定义内置ceye
    token是二次验证的
    代码其实如果没过
      if (statusCode == HttpStatusCode.OK)
