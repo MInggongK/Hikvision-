@@ -247,7 +247,7 @@ Content-Type: application/zip
 
 那么本地就准备一个zip
 
-内置了一个dnslog(请勿修改）
+内置了一个ceye(请勿修改）
 
 然后这样要做精准判断的话
 
@@ -278,7 +278,7 @@ Content-Type: application/zip
       代码如果过了
       二次验证
       调用"http://api.ceye.io/v1/records?token=
-      查找是否存在随机的dnslog信息
+      查找是否存在随机的ceye信息
    
       
 
