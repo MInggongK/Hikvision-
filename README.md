@@ -267,12 +267,7 @@ Content-Type: application/zip
   
    http://api.ceye.io/v1/records?token=+"token信息";
    
-   采用了自定义dnslog
-   
-   本地的file,默认是：``.zip
-   要和本地的对应，否则会报错
-   那么用户输入xxx.dnslog.cn,叠加`xxx.dnslog.cn`.zip
-   正确写法："`" + textBox15.Text + "`" + ".zip";
+   采用了自定义内置dnslog
    token是二次验证的
    代码其实如果没过
      if (statusCode == HttpStatusCode.OK)
