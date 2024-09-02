@@ -39,6 +39,12 @@ Hikvision综合安防管理平台files任意文件读取漏洞
 
 Hikvision综合安防管理平台detection远程命令执行漏洞
 
+Hikvision综合安防管理平台productFile远程命令执行漏洞
+
+Hikvision综合安防管理平台licenseExpire远程命令执行漏洞
+
+Hikvision综合安防管理平台installation远程命令执行漏洞
+
 # 功能介绍
 
 批量检测模块：
