@@ -257,8 +257,11 @@ Content-Type: application/zip
 ![image](https://github.com/MInggongK/Hikvision-/blob/main/dgf.jpg)
   
   验证的话， 还是采用http://api.ceye.io/v1/records?token=去验证
+  
    http://api.ceye.io/v1/records?token=+"token信息";
+   
    采用了自定义dnslog
+   
    本地的file,默认是：``.zip
    要和本地的对应，否则会报错
    那么用户输入xxx.dnslog.cn,叠加`xxx.dnslog.cn`.zip
