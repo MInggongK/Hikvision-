@@ -196,10 +196,15 @@ Hikvision综合漏洞利用工具 v1.7版
 # 更新小记
 
 编写Hikvision综合安防管理平台productFile远程命令执行漏洞这个漏洞
+
 是需要两步进行
+
 很容易踩坑的点，访问try异常，数据处理失败
+
 循环外判断，错误
+
 漏洞针对的是海康威视部分综合安防管理平台历史版本，意味着漏洞的影响可能不会太多
+
 第一个POC
 
 GET /iac/iasService/v1/register HTTP/1.1
