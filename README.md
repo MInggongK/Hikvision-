@@ -160,6 +160,17 @@ http://api.ceye.io/v1/records?token=“token&type=dns&filter=
 
 # 更新日志
 
+Hikvision综合漏洞利用工具 v2.0版
+
+增加了Hikvision综合安防管理平台productFile远程命令执行漏洞
+增加了Hikvision综合安防管理平台licenseExpire远程命令执行漏洞
+增加了Hikvision综合安防管理平台installation远程命令执行漏洞
+licenseExpire自定义模块可用
+installation自定义模块可用
+productFile远程命令执行漏洞提供检测功能
+后续版本优化
+
+
 Hikvision综合漏洞利用工具 v1.8版
 
 增加了Hikvision综合安防管理平台detection远程命令执行漏洞
